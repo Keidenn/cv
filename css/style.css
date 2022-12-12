@@ -29,7 +29,7 @@ body
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("/assets/desert.jpg");
+	background-image: url("assets/desert.jpg");
 	height: 1080px;
 	max-height: 100%;
 }
