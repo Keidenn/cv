@@ -441,16 +441,16 @@ nav
 	font-size: 22px;
 	margin-top: 100px;
 	max-width: 1000px;
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .description-flex-container p
 {
-  font-family: Arial;
+	font-family: Arial;
 	margin-top: 0;
 	display: none;
-  font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 .description-flex-container p.active
@@ -558,7 +558,7 @@ section
 	filter: drop-shadow(0 0 5px hsl(220deg, 100%, 60%));
 }
 
-.shadow-node
+.shadow-java
 {
 	filter: drop-shadow(0 0 5px hsl(110deg, 100%, 60%));
 }
@@ -608,10 +608,10 @@ section
 	animation: anim_circle-php 1s ease-in-out forwards;
 }
 
-.circle-node
+.circle-java
 {
-	-webkit-animation: anim_circle-node 1s ease-in-out forwards;
-	animation: anim_circle-node 1s ease-in-out forwards;
+	-webkit-animation: anim_circle-java 1s ease-in-out forwards;
+	animation: anim_circle-java 1s ease-in-out forwards;
 }
 
 .circle-react
@@ -724,19 +724,19 @@ section
 	}
 }
 
-@-webkit-keyframes anim_circle-node
+@-webkit-keyframes anim_circle-java
 {
 	to
 	{
-		stroke-dashoffset: 431.2;
+		stroke-dashoffset: 380;
 	}
 }
 
-@keyframes anim_circle-node
+@keyframes anim_circle-java
 {
 	to
 	{
-		stroke-dashoffset: 431.2;
+		stroke-dashoffset: 380;
 	}
 }
 
@@ -1525,7 +1525,7 @@ footer div
 		position: absolute;
 		display: flex;
 		flex-direction: column-reverse;
-		margin: 50px 0 350px 75%;
+		margin: 0px 0 350px 75%;
 	}
 
 	.fas.fa-link
