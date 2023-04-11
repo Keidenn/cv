@@ -568,7 +568,7 @@ section
 	filter: drop-shadow(0 0 5px hsl(180deg, 100%, 60%));
 }
 
-.shadow-angular
+.shadow-node
 {
 	filter: drop-shadow(0 0 5px hsl(0deg, 100%, 60%));
 }
@@ -620,10 +620,10 @@ section
 	animation: anim_circle-react 1s ease-in-out forwards;
 }
 
-.circle-angular
+.circle-node
 {
-	-webkit-animation: anim_circle-angular 1s ease-in-out forwards;
-	animation: anim_circle-angular 1s ease-in-out forwards;
+	-webkit-animation: anim_circle-node 1s ease-in-out forwards;
+	animation: anim_circle-node 1s ease-in-out forwards;
 }
 
 .circle-vue
@@ -696,7 +696,7 @@ section
 {
 	to
 	{
-		stroke-dashoffset: 330;
+		stroke-dashoffset: 340;
 	}
 }
 
@@ -704,7 +704,7 @@ section
 {
 	to
 	{
-		stroke-dashoffset: 330;
+		stroke-dashoffset: 280;
 	}
 }
 
@@ -720,7 +720,7 @@ section
 {
 	to
 	{
-		stroke-dashoffset: 330;
+		stroke-dashoffset: 350;
 	}
 }
 
@@ -752,11 +752,11 @@ section
 {
 	to
 	{
-		stroke-dashoffset: 431.2;
+		stroke-dashoffset: 325.2;
 	}
 }
 
-@-webkit-keyframes anim_circle-angular
+@-webkit-keyframes anim_circle-node
 {
 	to
 	{
@@ -764,11 +764,11 @@ section
 	}
 }
 
-@keyframes anim_circle-angular
+@keyframes anim_circle-node
 {
 	to
 	{
-		stroke-dashoffset: 431.2;
+		stroke-dashoffset: 350.2;
 	}
 }
 
