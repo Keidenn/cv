@@ -39,29 +39,6 @@
           <span class="sous_titre">WEB DEVELOPPER</span>
         </div>
       </div>
-      <div class="stage">
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-      </div>
-      
       <style>
         * *, *::before, *::after { 
           animation-play-state: running !important;
@@ -213,111 +190,55 @@
         <h2>
           Portfolio
         </h2>
-          <div class="container">
-              <div class="carousel">
-                  <input type="radio" name="slides" checked="checked" id="slide-1">
-                  <input type="radio" name="slides" id="slide-2">
-                  <input type="radio" name="slides" id="slide-3">
-                  <input type="radio" name="slides" id="slide-4">
-                  <input type="radio" name="slides" id="slide-5">
-                  <input type="radio" name="slides" id="slide-6">
-                  <ul class="carousel__slides">
-                      <li class="carousel__slide">
-                          <figure>
-                              <div>
-                                  <img src="assets/sites/booki.JPG" alt="booki">
-                              </div>
-                              <figcaption>
-                                Site de location d'hébergement réalisé dans le cadre de la formation "Prep'apprentissage" avec OpenClassroom.                                  <a href="https://keidenn.github.io/booki/" target="_blank">
-                                    <span class="credit">Site : Booki</span>
-                                  </a>
-                              </figcaption>
-                          </figure>
-                      </li>
-                      <li class="carousel__slide">
-                          <figure>
-                              <div>
-                                  <img src="assets/sites/idlemc.JPG" alt="IdleMc">
-                              </div>
-                              <figcaption>
-                                  Site du serveur minecraft IdleMC réalisé sous Azurium.
-                                  <a href="https://www.idlemc.fr/" target="_blank">
-                                    <span class="credit">Site : IdleMC</span>
-                                  </a>                          
-                              </figcaption>
-                          </figure>
-                      </li>
-                      <li class="carousel__slide">
-                          <figure>
-                              <div>
-                                  <img src="assets/sites/quizz.JPG" alt="quizz_codesandbox">
-                              </div>
-                              <figcaption>
-                                Quizz de 3 questions réalisé sous React. Vous avez 30 secondes pour répondre à la question, une bonne réponse rapporte un point.
-                                <a href="https://dw5bcq.csb.app/" target="_blank">
-                                  <span class="credit">Disponible sur : Codesandbox</span>
-                                </a>                            
-                              </figcaption>
-                          </figure>
-                      </li>
-                      <li class="carousel__slide">
-                          <figure>
-                              <div>
-                                  <img src="assets/sites/tictactoe.JPG" alt="TicTacToe">
-                              </div>
-                              <figcaption>
-                                TicTacToe réalisé sous React à l'aide du tutoriel sur react.dev
-                                <a href="https://ofdp23.csb.app/" target="_blank">
-                                  <span class="credit">Disponible sur : Codesandbox</span>
-                                </a>                            
-                              </figcaption>
-                          </figure>
-                      </li>
-                      <li class="carousel__slide">
-                          <figure>
-                              <div>
-                                  <img src="assets/sites/ton_prochain_site.png" alt="Ton prochain site ?">
-                              </div>
-                              <figcaption>
-                                A VENIR
-                                <span class="credit">Site : Ton prochain site ?</span>                            
-                            </figcaption>
-                          </figure>
-                      </li>
-                      <li class="carousel__slide">
-                          <figure>
-                              <div>
-                                  <img src="assets/sites/ton_prochain_site.png" alt="Ton prochain site ?">
-                              </div>
-                              <figcaption>
-                                A VENIR
-                                <span class="credit">Site : Ton prochain site ?</span>                            
-                            </figcaption>
-                          </figure>
-                      </li>
-                  </ul>    
-                  <ul class="carousel__thumbnails">
-                      <li>
-                          <label for="slide-1"><img src="assets/sites/booki.JPG" alt="booki"></label>
-                      </li>
-                      <li>
-                          <label for="slide-2"><img src="assets/sites/idlemc.JPG" alt="IdleMc"></label>
-                      </li>
-                      <li>
-                          <label for="slide-3"><img src="assets/sites/quizz.JPG" alt="Ton prochain site ?"></label>
-                      </li>
-                      <li>
-                          <label for="slide-4"><img src="assets/sites/tictactoe.JPG" alt="Ton prochain site ?"></label>
-                      </li>
-                      <li>
-                          <label for="slide-5"><img src="assets/sites/ton_prochain_site.png" alt="Ton prochain site ?"></label>
-                      </li>
-                      <li>
-                          <label for="slide-6"><img src="assets/sites/ton_prochain_site.png" alt="Ton prochain site ?"></label>
-                      </li>
-                  </ul>
+        <div id="portfolio_box">
+          <a href="https://keidenn.github.io/booki/" alt="booki" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="assets/sites/booki.JPG" class="cover-image" />
               </div>
-          </div>
+              <img src="assets/sites/portfolio_assets/booki_title.png" class="title" />
+              <img src="assets/sites/portfolio_assets/booki_ex.png" class="character" />
+            </div>
+          </a>
+          
+          <a href="https://www.idlemc.fr/" alt="IdleMC" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="assets/sites/idlemc.JPG" class="cover-image" />
+              </div>
+              <img src="assets/sites/portfolio_assets/idle_title.png" class="title" />
+              <img src="assets/sites/portfolio_assets/idlemc_ex.png" class="character" />
+            </div>
+          </a>
+          <a href="https://ofdp23.csb.app/" alt="booki" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="assets/sites/tictactoe.JPG" class="cover-image" />
+              </div>
+              <img src="assets/sites/portfolio_assets/tictactoe_title.png" class="title" />
+              <img src="assets/sites/portfolio_assets/tictactoe_ex.png" class="character" />
+            </div>
+          </a>
+          
+          <a href="https://dw5bcq.csb.app/" alt="booki" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="assets/sites/quizz.JPG" class="cover-image" />
+              </div>
+              <img src="assets/sites/portfolio_assets/quizz_title.png" class="title" />
+              <img src="assets/sites/portfolio_assets/quizz_ex.png" class="character" />
+            </div>
+          </a>
+          <a href="#" alt="booki" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="assets/sites/more_soon.jpg" class="cover-image" />
+              </div>
+              <img src="assets/sites/portfolio_assets/more_soon_title.png" class="title" />
+              <img src="assets/sites/portfolio_assets/ton_prochain_site.png" class="character" />
+            </div>
+          </a>
+        </div>
       </section>
       <section id="contact">
         <div class="background">
