@@ -9,7 +9,7 @@
   <link rel="icon" type="image/x-icon" href="/assets/logo/favicon.ico">
   <script src="https://kit.fontawesome.com/3f8f1bd356.js" crossorigin="anonymous"></script>
 </head>
-  <body>  
+  <body>
     <header>
       <div>
         <!-- Réseaux sociaux -->
@@ -20,12 +20,12 @@
       </div>
       <nav>
         <!-- Liens de navigation -->
-          <a href="#a_propos" class="liens navigation">A PROPOS</a> 
+          <a href="#a_propos" class="liens navigation">A PROPOS</a>
           <a href="#experiences" class="liens navigation">EXPERIENCES</a>
           <a href="#competences" class="liens navigation">COMPETENCES</a>
           <a href="#portfolio" class="liens navigation">PORTFOLIO</a>
           <a href="#contact" class="liens navigation">ME CONTACTER</a>
-      </nav>       
+      </nav>
       <h1><a href="https://keidenn.github.io/cv" >DYLAN ROHART</a></h1>
     </header>
     <!-- Titres sur l'écran principal -->
@@ -40,11 +40,11 @@
         </div>
       </div>
       <style>
-        * *, *::before, *::after { 
+        * *, *::before, *::after {
           animation-play-state: running !important;
         }
       </style>
-      
+
       <section id="a_propos">
         <h2>
           A Propos de moi
@@ -67,7 +67,7 @@
             <h3>
               Mon Parcours
             </h3>
-            Féru d'informatique depuis tout jeune, j'ai toujours aimé donner naissance à des projets sur le web. Suite à une reconversion, je me suis tourné vers OpenClassroom dans le but de me former dans un métier qui était déjà un hobby : développeur web - afin de faire de mon quotidien ce que j'aime.        
+            Féru d'informatique depuis tout jeune, j'ai toujours aimé donner naissance à des projets sur le web. Suite à une reconversion, je me suis tourné vers OpenClassroom dans le but de me former dans un métier qui était déjà un hobby : développeur web - afin de faire de mon quotidien ce que j'aime.
             <div class="boutons_a_propos">
             <button type="button" onclick="window.location.href='#experiences';">EXPERIENCES</button>
             </div>
@@ -121,26 +121,26 @@
               La suite de mon histoire professionnelle s'écrira-t-elle avec vous ?
             </p>
           </div>
-        </div>     
-      </section>        
+        </div>
+      </section>
       <section id="competences">
         <h2>
           Mes compétences
         </h2>
         <div class="container">
-          <div class="container__progressbars">       
+          <div class="container__progressbars">
             <div class="progressbar">
               <svg class="progressbar__svg">
                 <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
               </svg>
               <span class="progressbar__text shadow-html">HTML</span>
-            </div>     
+            </div>
             <div class="progressbar">
               <svg class="progressbar__svg">
                 <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
               </svg>
               <span class="progressbar__text shadow-css">CSS</span>
-            </div>  
+            </div>
             <div class="progressbar">
               <svg class="progressbar__svg">
                 <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
@@ -200,7 +200,7 @@
               <img src="assets/sites/portfolio_assets/booki_ex.png" class="character" />
             </div>
           </a>
-          
+
           <a href="https://www.idlemc.fr/" alt="IdleMC" target="_blank">
             <div class="card">
               <div class="wrapper">
@@ -219,7 +219,7 @@
               <img src="assets/sites/portfolio_assets/tictactoe_ex.png" class="character" />
             </div>
           </a>
-          
+
           <a href="https://dw5bcq.csb.app/" alt="quizz" target="_blank">
             <div class="card">
               <div class="wrapper">
@@ -247,6 +247,24 @@
               <img src="assets/sites/portfolio_assets/eight_ball_ex.png" class="character" />
             </div>
           </a>
+<a href="https://keidenn.github.io/Site---St-phane-Catteau/" alt="portfolio_stephane_catteau" target="_blank">
+  <div class="card">
+    <div class="wrapper">
+      <img src="assets/sites/catteau_stephane.jpg" class="cover-image" />
+    </div>
+    <img src="assets/sites/portfolio_assets/stephane_catteau_title.png" class="title" />
+    <img src="assets/sites/portfolio_assets/stephane_catteau_ex.png" class="character" />
+  </div>
+</a>
+<a href="https://keidenn.github.io/coucou_toi-portfolio/#home" alt="portfolio_coucou_toi" target="_blank">
+  <div class="card">
+    <div class="wrapper">
+      <img src="assets/sites/coucou_toi.jpg" class="cover-image" />
+    </div>
+    <img src="assets/sites/portfolio_assets/coucou_toi_title.png" class="title" />
+    <img src="assets/sites/portfolio_assets/coucou_toi_ex.png" class="character" />
+  </div>
+</a>
           </a>
           <a href="#" alt="more_soon" target="_blank">
             <div class="card">
@@ -308,7 +326,7 @@
             </div>
           </div>
         </div>
-            
+
       </section>
     </main>
     <footer>
@@ -326,7 +344,7 @@
       <script>
         let menuElem = document.getElementById('reseaux');
         let titleElem = menuElem.querySelector('.liens_reseaux_telephone');
-    
+
         titleElem.onclick = function() {
           menuElem.classList.toggle('open');
         };
@@ -336,7 +354,7 @@
           var t = $(this),
               ind = t.index(),
               matchedPara = paras.eq(ind);
-          
+
           t.add(matchedPara).addClass('active');
           inputs.not(t).add(paras.not(matchedPara)).removeClass('active');
         });
