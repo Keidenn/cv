@@ -24,15 +24,17 @@ body
 }
 
 /* haut de page */
-#fond_top_page
-{
+#fond_top_page {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("https://wallpapercrafter.com/sizes/2560x1440/73839-moon-night-desert-artist-artwork-digital-art-hd-4k.jpg");
-	height: 1080px;
+	background: linear-gradient(180deg, rgba(241,241,241,0) 67%, rgba(28,28,28,1) 95%), url('https://wallpapercrafter.com/sizes/2560x1440/73839-moon-night-desert-artist-artwork-digital-art-hd-4k.jpg') center/cover no-repeat;
+	height: 1000px;
 	max-height: 100%;
+	position: relative;
 }
+
+
 
 .caption
 {
@@ -217,9 +219,9 @@ nav
 
 .resume_a_propos
 {
-  position: relative;
+  	position: relative;
 	width: 25%;
-	text-align: center;
+	text-align: justify;
 	display: flex;
 	flex-direction: column;
 }
@@ -251,7 +253,7 @@ nav
 	z-index: 1;
 	left: auto;
   right: auto;
-  
+
 }
 
 .boutons_a_propos button::before
@@ -412,7 +414,7 @@ nav
 	visibility: visible;
 	position: absolute;
 	left: 50%;
-  
+
 }
 
 .input span::after
@@ -810,8 +812,8 @@ section
   * {
 	box-sizing: border-box;
   }
-  
-  
+
+
   .card {
 	width: var(--card-width);
 	height: var(--card-height);
@@ -823,27 +825,27 @@ section
 	perspective: 2500px;
 	margin: 0 50px;
   }
-  
+
   .cover-image {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
   }
-  
+
   .wrapper {
 	transition: all 0.5s;
 	position: absolute;
 	width: 100%;
 	z-index: -1;
   }
-  
+
   .card:hover .wrapper {
 	transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
 	box-shadow: 2px 35px 32px -80px rgba(0, 0, 0, 0.75);
 	-webkit-box-shadow: 2px 35px 32px -80px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 2px 35px 32px -80px rgba(0, 0, 0, 0.75);
   }
-  
+
   .wrapper::before,
   .wrapper::after {
 	content: "";
@@ -874,12 +876,12 @@ section
 	  rgba(12, 13, 19) 97%
 	);
   }
-  
+
   .card:hover .wrapper::before,
   .wrapper::after {
 	opacity: 1;
   }
-  
+
   .card:hover .wrapper::after {
 	height: 120px;
   }
@@ -890,7 +892,7 @@ section
   .card:hover .title {
 	transform: translate3d(0%, -50px, 100px);
   }
-  
+
   .character {
 	width: 120%;
 	opacity: 0;
@@ -898,7 +900,7 @@ section
 	position: absolute;
 	z-index: -1;
   }
-  
+
   .card:hover .character {
 	opacity: 1;
 	transform: translate3d(0%, -30%, 100px);
@@ -1244,7 +1246,7 @@ footer div
 /* queries, media, telephone, tablette, responsive */
 @media (max-width: 1600px)
 {
-	/* a propos */	
+	/* a propos */
 	.resume_a_propos
 	{
 		font-size: 0.85em;
@@ -1263,14 +1265,14 @@ footer div
 }
 
 @media (max-width: 1350px)
-/* a propos */	
+/* a propos */
   {
 	.resume_a_propos
 	{
 		font-size: 0.5em;
 	}
 
-  button 
+  button
   {
     font-size: 2em;
     height: auto;
@@ -1339,7 +1341,7 @@ footer div
     right:0;
     font-size: 0.7em;
   }
-  
+
 }
 
 @media (max-width: 768px)
@@ -1460,7 +1462,7 @@ footer div
 @media (max-width: 600px)
 {
 
-  #portfolio h2 
+  #portfolio h2
   {
     margin-top: 13%;
   }
@@ -1476,7 +1478,7 @@ footer div
   {
 	width: 60%;
 	min-width: 5%;
-  }   
+  }
 
 	/* Experiences */
 	.flex-parent
@@ -1526,7 +1528,7 @@ footer div
   {
   font-size: 0.85em;
   white-space: normal;
-  } 
+  }
 
 	.input span::after
 	{
